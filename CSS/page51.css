@@ -1,0 +1,54 @@
+/*li{
+
+    background: #f7f7f7;
+    width: 360px;
+    margin: 100px auto;
+
+}
+
+/* li:nth-child(2n){ /* select all even childs and put white bg
+
+    background-color: white;
+
+} 
+
+/* li:first-child{ /* select first child and put white bg 
+
+    background-color: white;
+
+} 
+
+/* li:last-child{ /* select last child and put white bg 
+
+    background-color: white;
+
+} */
+
+/* p:first-letter{ /* you can put last line, first line, first letter */
+
+    /* text-transform:uppercase; 
+    font-size: 100px;
+
+
+}
+
+p:hover{ /* when you point cursor on para you get these colors 
+    
+    background: black;
+    color: white;
+    cursor:pointer; /* you get hand when you point 
+
+} */
+
+p{
+    background: #f7f7f7;
+    color: black;
+    width: 400px;
+
+    margin: 0 auto;
+
+    /* border: 2px solid black; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.5) /* you get a neat shadow */
+    /* outline: none; shadow goes out */
+
+}

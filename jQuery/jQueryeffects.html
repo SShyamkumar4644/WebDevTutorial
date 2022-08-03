@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jQuery tutorial</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP972CwtekAsvgPBSUwPFKdrwD3unUfSCVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link href="https//code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+<body>
+    <!--jQuery effects hide show toggle-->
+    <!--
+    <button class="button" id="hide">Hide</button>
+    <button class="button" id="show">Show</button>
+    -->
+    <!--jQuery effects hide show toggle-->
+    <!--<div class="puppers">
+        <img src="puppie/goldie.jpg">
+    </div>
+-->
+    <!--jQuery effects hide show toggle-->
+    <!--<script>
+
+        $(document).ready(function(){
+            $("#hide").click(function() {
+                $("img").hide(); /* selecting hide button, clicking hide button img gets hidden */
+            });
+            $("#show").click(function() {
+                $("img").show(); /*on s=clicking show, img comes up */
+            });
+        });  
+    </script>
+-->
+
+<!--jQuery fadeOut loading three images and id given, selecting them and fading out-->
+<!--
+    <button>BYEEE</button>
+    <div class="puppers"> 
+        <img id="one" src="puppie/goldie.jpg">
+        <img id="two" src="puppie/husky.jpg">
+        <img id="three" src="puppie/boxer.jpg">
+    </div>
+    <script>
+
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#one").fadeOut("slow");
+                $("#two").fadeOut("fast");
+                $("#three").fadeOut("slow");
+            });
+        });
+    </script>
+
+-->
+
+<!--jQuery fadeIn when you cliock namaste button, you get indian flag-->
+
+
+    <script>
+
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#one").fadeIn("");
+                $("#two").fadeIn("slow");
+                $("#three").fadeIn("3000");
+            });
+        });
+    </script>
+    <button>Namaste!</button>
+    <div class="fade">
+        <div id="one" style="width:2200; height:60px; display:none; background-color:orange;"></div>
+        <div id="two" style="width:2200; height:60px; display:none; background-color:white;"></div>
+        <div id="three" style="width:2200; height:60px; display:none; background-color:green;"></div>
+    </div>
+
+
+
+
+</body>
+</html>

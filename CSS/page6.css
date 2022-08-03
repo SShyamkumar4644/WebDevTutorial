@@ -1,0 +1,28 @@
+/*#whitespace-pre{ 
+
+    white-space: pre;
+} */
+
+#never-wrap{ /* para continues in one line */
+
+    white-space: nowrap;
+}
+
+#preserve-wrap{ /* para created */
+
+    white-space: pre-wrap;
+}
+
+#left-right{ /* text moves on left */
+
+    direction: ltr;
+
+
+}
+
+#right-left{ /* text moves on right */
+
+    direction: rtl;
+
+
+}

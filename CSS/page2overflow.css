@@ -1,0 +1,13 @@
+/* overflow: shows items to scroll */
+ol{
+
+    width: 100px;
+    padding: 10px;
+    margin: 100px auto;
+    background: black;
+    color: white;
+
+    /* maxheight: 200px; */
+    overflow: scroll;
+
+}

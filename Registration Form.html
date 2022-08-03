@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First webpage</title>
+</head>
+<body>
+
+    <h1> Registration Form </h1>
+
+    <div id="reg-form"> <!-- id used to select for html page for styling -->
+        <form action="" method=""> <!-- from takes two important attributes, action and method, action when happens when you submit -->
+
+        <form>
+
+
+            <label for="first-name">First Name: </label> <!-- for showing its to enter first name -->
+            <input type="text" name="first-name" placeholder="Aryya" required> 
+            <!-- The placeholder attribute specifies a short hint that describes the expected value of a input field / textarea. 
+            The short hint is displayed in the field before the user enters a value.-->
+
+            <label for="last-name">Last Name: </label> <!-- for showing its to enter last name -->
+            <input type="text" name="last-name" placeholder="Paul" required> 
+            <!-- for input, required mandatory to fill -->
+
+            <div>
+
+                <label for="gender-male"> Male</label>
+                <input type="radio" name="gender-choice" value="choice-1">
+
+                <label for="gender-female"> Female</label>
+                <input type="radio" name="gender-choice" value="choice-2">
+
+                <label for="gender-others"> Others</label>
+                <input type="radio" name="gender-choice" value="choice-3"> <!--gender-choice will help in selcting only one option-->
+
+                <!-- while doing this you select all options, for that add gender-choice in place of male, female and others -->
+
+
+            </div>
+
+            <div>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="xyz@gmail.com" >
+
+                <label for="Password">Password</label>
+                <input type="password" name="password">
+
+
+            </div>
+            
+            <div>
+
+                <label for="Month">Birthday</label>
+                <select name="Month">
+                    <option value="0" selected disabled>Month</option> <!--Jan looks default, so put option to remove that and put Month-->
+                    <option value="Jan">January</option>
+                    <option value="Feb">Febraury</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June/option>
+                    <option value="July">July</option>
+                    <option value="August">August/option>
+                    <option value="September">September/option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+
+
+                </select> <!-- select tags are used for making selctions-->
+
+            </div>
+
+            <label for="agree">I agree to all the conditions of the form: </label>
+            <input type="checkbox" name="agree">
+
+            <button type="submit">Submit</button> <!-- submit button-->
+
+
+
+
+
+
+
+        </form>
+
+    
+</body>
+</html>

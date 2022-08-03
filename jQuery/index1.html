@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jQuery tutorial</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP972CwtekAsvgPBSUwPFKdrwD3unUfSCVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link href="https//code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+<body>
+    <h1>jQuery Tutorial</h1>
+    <p>By Edureka</p>
+    <script>/* val() function, here this script will run only when the page is ready also jQuery is done included */
+        $(document).ready(function() {
+            $("button").click(function() {
+                alert("Value: " + $("#sometext").val()); /* whatever the value user types it gets inside $sometext and .val returns the value */
+            });  
+        });
+        
+        </script>
+        <input type="text" id="sometext" value="">
+        <button>Submit</button>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+/* pseudo selectors- when you pointy on links you get these colors */
+/* a:hover{
+
+    background: black;
+    color: white;
+} */
+
+
+/* a:visited{
+
+    background: black;
+    color: white;
+} */
+/*
+a:active{ /*active: when you click on link, it becomes black and white 
+
+    background: black;
+    color: white;
+}
+
+body{
+    background: #43982F;
+
+}
+
+#wrapper {
+
+    margin: 0 auto; /* dont need to specify units 
+    background-color: white;
+    width: 800px;
+    height: 1000px;
+
+}
+
+header{
+
+    padding: 0px 0px 10px 0px; /*top right bottom left
+}
+
+#horzNav:hover{ /* can put only  #horzNav 
+
+    display: block;
+    background: black;
+    color: white;
+}
+
+*/
+#para-1{
+
+    word-spacing: 10px;
+
+}
+#para-2{
+
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+footer{ /* clear property */
+
+    clear: both;
+    background-color: black;
+    color: white;
+
+}
+
+/* ul{ /* no bullet points 
+
+    list-style: none;
+} */
+
+ol{ /* abc abc */
+
+    list-style-type: lower-alpha; /* alpha greek can add */
+    list-style-position: outside; /* doesn't really change much */
+}
+
+#para-1:before{ /* content will be added before para-1 */
+
+    content: "@@@@@@@@"
+}

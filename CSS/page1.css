@@ -1,0 +1,53 @@
+div{  /* change color only for div part in html part*/
+
+    background: purple; 
+    color: white;
+}
+
+#quote{ /* change quote part only in html part*/
+
+    font-family: "verdana", "gill sans";
+    color: black;
+}
+
+.movie{  /* background blue appears on movie class for <li><a class="movie">Dota</a></li> part of code, so put .movie*/
+
+    color: white;
+    background: steelblue;
+
+}
+
+span#author{  /* change only author part which has span id, change only that part <span id="author">-Pope Alexander</span> */
+
+
+    text-transform: uppercase;
+}
+
+#skills ol li{ /* change only the orderlists and lists under that under skills id */
+
+    color: purple;
+    background: white;
+    
+}
+
+#skills ul li{ /* change only the unorderlists and lists under that under skills id */
+
+    color: blue; /* these were the selectors */
+}
+
+h3 + p{ /* apply color to the para for h3 */
+    background: black;
+    color: white;
+}
+
+p[class]{ /* apply bg color which has p class */
+
+    background: gray;
+
+}
+
+p[id]{ /* apply bg color which has p id */
+
+    background: gray;
+
+}

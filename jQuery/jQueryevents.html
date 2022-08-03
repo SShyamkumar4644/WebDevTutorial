@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jQuery tutorial</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP972CwtekAsvgPBSUwPFKdrwD3unUfSCVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link href="https//code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+<body>
+    <h1>jQuery Tutorial</h1>
+    <p>By Edureka</p>
+    <div class="puppers"> <!--displays puppies images -->
+        <img src="puppie/goldie.jpg">
+        <img src="puppie/husky.jpg">
+        <img src="puppie/boxer.jpg">
+    </div>
+    <script>
+        $(document).ready(function() {
+            $("img").click(function() { /*click on button and on these images adding addclass method */
+                $(this).hide();/* when clicked on img this event is occured 
+                now this is elemt is selected and that elemt is hidden using hide elemnt*/
+            }); /* when you click on the image it gets hidden */
+        });
+    </script>
+
+</body>
+</html>

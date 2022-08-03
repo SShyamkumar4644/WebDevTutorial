@@ -1,0 +1,32 @@
+/* body{ /* from https://mycolor.space/gradient website 
+
+
+    background-image: url(goku.jpg);
+    /* background-image: linear-gradient(to right, #0056d6, #0091e3, #00bac8, #9dd9be, #f1f6e5);
+    /* to right is direction and the colors 
+    background-repeat: repeat-y; /*repeats in y axis 
+
+} */
+
+/* body{
+
+    background-image: radial-gradient( #0056d6, #0091e3, #00bac8, #9dd9be, #f1f6e5);
+    /* radial gradient doesn't require direction 
+
+} */
+
+div{
+
+    border: 10px solid black;
+    background: red;
+    width: 500px;
+    height: 500px;
+}
+
+div:hover{ /*animation when you point on red box it gets bigger */
+
+    /* transform: scale(2); */
+    /* transform: rotate(45deg); */
+    /* transform: skew(20deg, 10deg); /* xaxis, yaxis */
+    transform: translate(120px,120px); /* comes down a bit */
+}

@@ -1,0 +1,89 @@
+#lorem{ /* targets lorem paragraph in page1.html file */
+
+    background: black;
+    color: white;
+
+    border: 3px solid red; /* 3 parameters, types, size of border and color, there are 3 types of border one is dashed, rigged, dotted*/
+    
+    padding: 13px 13px 13px 20px; /* 4 parameters right, bottom, right, bottom, left. Clockwise */
+    /*padding: 13px 13px; /* 13px top and bottom and second 13px left and right*/
+    /*padding: 13px; /* 13px allaround */
+    /* margin: 10px 20px; /* 1opx top and bottom and second 20px left and right*/
+    margin: 10px auto; /* auto: equla amts of margin */
+
+}
+
+#normal{
+
+    font-style: normal;
+}
+
+#italic{
+
+    font-style: italic;
+}
+
+#oblique{
+
+    font-style: oblique;
+}
+
+#smallcap{
+
+    font-variant: small-caps;
+}
+
+#Wnormal{
+
+    font-weight: normal;
+}
+
+#Wbolder{
+
+    font-weight: bolder;
+}
+
+#Wbold{
+
+    font-weight: bold;
+}
+
+#xxlarge{
+
+    font-size: x-large;
+}
+
+#large{
+
+    font-size: large;
+}
+
+#medium{
+
+    font-size: medium;
+}
+
+#small{
+
+    font-size: small;
+}
+
+#xxsmall{ /* 1pt- 2inches */
+
+    font-size: xx-small;
+}
+
+#xxsmall{ /* 1pt- 2inches */
+
+    font-size: xx-small;
+    /* font-size: 25pt; */ /* change here itself*/
+    /* font-size: 150%; */
+}
+
+#linenormal{
+
+    /*Line-height: normal;
+    /*Line-height: 25pt;*/
+    /*Line-height: 5em;*/
+    Line-height: 200%
+}
