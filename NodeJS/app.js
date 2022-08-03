@@ -48,3 +48,4 @@ fs.writeFile('./hello.txt', 'How are you?', function (err) { // this will write 
         });
     }
 });
+// This is a smaple project
